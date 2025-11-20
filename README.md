@@ -24,37 +24,37 @@
             box-sizing: border-box;
         }
         
-        @keyframes fadeIn {
+         {
             from { opacity: 0; }
             to { opacity: 1; }
         }
         
-        @keyframes slideDown {
+        slideDown {
             from { opacity: 0; transform: translateY(-20px); }
             to { opacity: 1; transform: translateY(0); }
         }
         
-        @keyframes slideUp {
+        slideUp {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
         
-        @keyframes bounceSlow {
+        bounceSlow {
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-10px); }
         }
         
-        @keyframes scaleIn {
+         scaleIn {
             from { opacity: 0; transform: scale(0.8); }
             to { opacity: 1; transform: scale(1); }
         }
         
-        @keyframes pulse {
+         pulse {
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.05); }
         }
         
-        @keyframes shine {
+       shine {
             0% { background-position: -200% center; }
             100% { background-position: 200% center; }
         }
